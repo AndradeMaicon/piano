@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keyboard</title>
+
+  <link rel="stylesheet" href="style/main.css">
+  <script src="main.js" defer></script>
+
+  <!-- 
+    references:
+    https://codepen.io/Eliteware/pen/wDHIC
+    https://codepen.io/gabrielcarol/pen/rGeEbY
+  -->
+</head>
+
+<body>
+  <div id="piano">
+    <div id="piano-container" class="keys">
+      <li>
+        <div class="white key" data-key="KeyA" data-note="C">
+        </div>
+        <div class="black key sharp" data-key="KeyW" data-note="C#">
+        </div>
+      </li>
+      <li>
+        <div class="white key" data-key="KeyS" data-note="D">
+        </div>
+        <div class="black key sharp" data-key="KeyE" data-note="D#">
+        </div>
+      </li>
+      <li>
+        <div class="white key" data-key="KeyD" data-note="E">
+        </div>
+      </li>
+      <li>
+        <div class="white key" data-key="KeyF" data-note="F">
+        </div>
+        <div class="black key sharp" data-key="KeyT" data-note="F#">
+        </div>
+      </li>
+      <li>
+        <div class="white key" data-key="KeyG" data-note="G">
+        </div>
+        <div class="black key sharp" data-key="KeyY" data-note="G#">
+        </div>
+      </li>
+      <li>
+        <div class="white key" data-key="KeyH" data-note="A">
+        </div>
+        <div class="black key sharp" data-key="KeyU" data-note="A#">
+        </div>
+      </li>
+      <li>
+        <div class="white key" data-key="KeyJ" data-note="B">
+        </div>
+      </li>
+      <li>
+        <div class="white key" data-key="KeyK" data-note="C">
+        </div>
+        <div class="black key sharp" data-key="KeyO" data-note="C#">
+        </div>
+      </li>
+      <li>
+        <div class="white key" data-key="KeyL" data-note="D">
+        </div>
+        <div class="black key sharp" data-key="KeyP" data-note="D#">
+        </div>
+      </li>
+      <li>
+        <div class="white key" data-key="Semicolon" data-note="E">
+        </div>
+      </li>
+    </div>
+  </div>
+
+  <section class="audios">
+    <audio data-key="KeyA" src="/sounds/040.wav"></audio>
+    <audio data-key="KeyW" src="/sounds/041.wav"></audio>
+    <audio data-key="KeyS" src="/sounds/042.wav"></audio>
+    <audio data-key="KeyE" src="/sounds/043.wav"></audio>
+    <audio data-key="KeyD" src="/sounds/044.wav"></audio>
+    <audio data-key="KeyF" src="/sounds/045.wav"></audio>
+    <audio data-key="KeyT" src="/sounds/046.wav"></audio>
+    <audio data-key="KeyG" src="/sounds/047.wav"></audio>
+    <audio data-key="KeyY" src="/sounds/048.wav"></audio>
+    <audio data-key="KeyH" src="/sounds/049.wav"></audio>
+    <audio data-key="KeyU" src="/sounds/050.wav"></audio>
+    <audio data-key="KeyJ" src="/sounds/051.wav"></audio>
+    <audio data-key="KeyK" src="/sounds/052.wav"></audio>
+    <audio data-key="KeyO" src="/sounds/053.wav"></audio>
+    <audio data-key="KeyL" src="/sounds/054.wav"></audio>
+    <audio data-key="KeyP" src="/sounds/055.wav"></audio>
+    <audio data-key="Semicolon" src="/sounds/056.wav"></audio>
+  </section>
+
+</body>
+
+</html>
